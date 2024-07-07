@@ -1,0 +1,46 @@
+# DataStructure
+A project for data structure.
+For every data structure, you should care three things: logical structure, physical structure and data operations.
+
+## Linear List
+##### Definition: 
+&nbsp;&nbsp;&nbsp;&nbsp;A linear list is a finite sequence of n(n>=0) data elements with the same data structure.
+
+##### Basic Operation:
+1. **InitList(&L)**: build a new linear list `L` and allocate memory space. 
+2. **DestroyList(&L)**: destroy the linear list `L` and free the memory space.
+3. **ListInsert(&L, i, e)**: insert the element `e` at the position `i` of linear list `L`.
+4. **ListDelete(&L, i, &e)**: delete the element at the position `i` of linear list `L` and copy the element to `e` .
+5. **LocateElem(L, e)**: find the specified element `e` in linear list `L`.
+6. **GetElem(L, i)**: find the element at the position `i` of linear list `L`.
+
+##### Other Operation:
+1. **Length(L)**: return the length of the linear list `L`.
+2. **PrintList(L)**: print the linear list `L`.
+3. **Empty(L)**: return whether the linear list `L` is empty.
+
+#### 1. Sequence List
+##### Definition
+&nbsp;&nbsp;&nbsp;&nbsp;Use sequential storage to implement linear list.
+##### Characteristic
+1. support random access
+2. high storage density
+3. expand the capacity is not easy
+4. insert and delete operations are inconvenient
+
+#### 2. (Circular) Single/Double Linked List
+##### Definition
+&nbsp;&nbsp;&nbsp;&nbsp;Use linked storage to implement linear list.
+##### Characteristic
+1. not support random access
+2. lower storage density
+3. expand the capacity is easy
+4. insert and delete operations are convenient
+##### Realize Method
+1. with head node(better)
+2. without head node
+
+#### 3. Static Linked List
+##### Definition
+&nbsp;&nbsp;&nbsp;&nbsp;Use array to implement linked list.
+
