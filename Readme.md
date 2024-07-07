@@ -44,3 +44,16 @@ For every data structure, you should care three things: logical structure, physi
 ##### Definition
 &nbsp;&nbsp;&nbsp;&nbsp;Use array to implement linked list.
 
+
+## Stack
+##### Definition:
+&nbsp;&nbsp;&nbsp;&nbsp;A linear list based on the principle of last in first out.
+##### Basic Operation:
+1. **InitStack(&S)**: build a new stack `S` and allocate memory space.
+2. **DestroyStack(&S)**: destroy the stack `S` and free the memory space.
+3. **Push(&S, x)**: add data to the top of the stack.
+4. **Pop(&S, &x)**: remove first element.
+5. **GetTop(S, &x)**: get the data at the first element of the stack.
+
+##### Other Operation:
+1. **empty(S)**: return true if the stack is empty.
