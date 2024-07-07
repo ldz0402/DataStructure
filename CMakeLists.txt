@@ -16,5 +16,6 @@ target_link_libraries(DataStructure
     utils
     linearlist
     stack
+    queue
 )
 
