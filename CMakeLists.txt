@@ -15,5 +15,7 @@ add_executable(DataStructure ${SRC_DIR})
 target_link_libraries(DataStructure
     utils
     linearlist
+    stack
+    queue
 )
 
