@@ -17,5 +17,6 @@ target_link_libraries(DataStructure
     linearlist
     stack
     queue
+    testString
 )
 
