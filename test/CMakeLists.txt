@@ -4,10 +4,6 @@ include_directories(./include)
 add_executable(MyTest test.cpp)
 
 # 链接被测试的可执行文件
-target_link_libraries(MyTest PRIVATE testString)
-
-# 添加测试
-add_test(
-    NAME test_string_1 
-    COMMAND $<TARGET_FILE:MyTest>
+target_link_libraries(MyTest
+    testString
 )
