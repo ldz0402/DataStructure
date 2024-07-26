@@ -7,6 +7,7 @@ message(STATUS Build Type:  ${CMAKE_BUILD_TYPE})
 include_directories(./include)
 
 add_subdirectory(./src)
+add_subdirectory(./test)
 
 aux_source_directory(. SRC_DIR)
 
@@ -17,5 +18,5 @@ target_link_libraries(DataStructure
     linearlist
     stack
     queue
+    testString
 )
-

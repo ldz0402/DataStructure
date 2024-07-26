@@ -70,3 +70,17 @@ For every data structure, you should care three things: logical structure, physi
 
 ##### Other Operation:
 1. **empty(Q)**: return true if the Queue is empty.
+
+## String
+##### Definition:
+&nbsp;&nbsp;&nbsp;&nbsp;C++ strings are sequences of characters stored in a char array.
+##### Basic Operation:
+1. **length()**: returns the length of the string.
+2. **swap()**: swap the values of 2 strings.
+3. **size()**: returns the length of the string.
+4. **resize()**: resize the length of the string up to the given number of characters.
+5. **find()**: find the string which is passed in parameters.
+6. **push_back()**: push the passed character at the end of the string.
+7. **pop_back()**: pop the last character from the string.
+8. **clear()**: erases the string, making it empty.
+9. ......
