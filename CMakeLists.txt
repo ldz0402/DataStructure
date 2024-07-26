@@ -2,11 +2,14 @@ cmake_minimum_required(VERSION 3.0)
 
 project(DataStructure VERSION 1.0.0)
 
+enable_testing()
+
 message(STATUS Build Type:  ${CMAKE_BUILD_TYPE})
 
 include_directories(./include)
 
 add_subdirectory(./src)
+add_subdirectory(./test)
 
 aux_source_directory(. SRC_DIR)
 
@@ -18,5 +21,10 @@ target_link_libraries(DataStructure
     stack
     queue
     testString
+)
+
+add_test(
+    NAME test_main_1 
+    COMMAND $<TARGET_FILE:DataStructure>
 )
 
