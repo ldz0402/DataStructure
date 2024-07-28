@@ -84,3 +84,6 @@ For every data structure, you should care three things: logical structure, physi
 7. **pop_back()**: pop the last character from the string.
 8. **clear()**: erases the string, making it empty.
 9. ......
+
+## Tree
+1. 

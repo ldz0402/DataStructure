@@ -4,6 +4,7 @@ add_subdirectory(LinearList)
 add_subdirectory(Stack)
 add_subdirectory(Queue)
 add_subdirectory(TestString)
+add_subdirectory(Tree)
 
 aux_source_directory(. UTILS_SRC_DIR)
 
